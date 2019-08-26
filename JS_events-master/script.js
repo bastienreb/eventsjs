@@ -51,7 +51,7 @@ var onCardDosClick = function (){
 cardDosElt.addEventListener("click", onCardDosClick)
 
 //FONCTIONNALITE NUMERO CINCO
-var Navbar = document.getElementsByClassName("navbar")[0];
+var Navbar = document.getElementsByTagName("header")[0];
 
 var onNavbarDoubleClick = function (){
 	if (document.styleSheets[0].disabled === true) {
